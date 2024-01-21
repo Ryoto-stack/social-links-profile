@@ -1,0 +1,85 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.profile {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 28px;
+  justify-content: center;
+  width: 380px;
+  height: 600px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.profile-details img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.address {
+  color: hsl(75, 94%, 57%);
+}
+
+p {
+  color: white;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 25px
+}
+
+.links {
+  font-size: 13px;
+  border-radius: 8px;
+  font-weight: 700;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.links a {
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}
